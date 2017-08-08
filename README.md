@@ -1,7 +1,7 @@
 # normalize.css
 
-<a href="https://github.com/necolas/normalize.css"><img
-  src="https://necolas.github.io/normalize.css/logo.svg" alt="Normalize Logo"
+<a href="https://github.com/samuelbetio/normalize.css"><img
+  src="https://samuelbetio.github.io/normalize.css/logo.svg" alt="Normalize Logo"
   width="80" height="80" align="right"></a>
 
 > A modern alternative to CSS resets
@@ -29,7 +29,7 @@ See https://cdnjs.com/libraries/normalize
 
 **Download**
 
-See https://necolas.github.io/normalize.css/latest/normalize.css
+See https://samuelbetio.github.io/normalize.css/latest/normalize.css
 
 
 ## What does it do?
@@ -51,7 +51,7 @@ See https://necolas.github.io/normalize.css/latest/normalize.css
 * iOS Safari (last two)
 * Opera (last two)
 * Safari 6+
-* _[Normalize.css v1 provides legacy browser support](https://github.com/necolas/normalize.css/tree/v1) (IE 6+, Safari 4+), but is no longer actively developed._
+* _[Normalize.css v1 provides legacy browser support](https://github.com/samuelbetio/normalize.css/tree/v1) (IE 6+, Safari 4+), but is no longer actively developed._
 
 
 
@@ -117,4 +117,4 @@ contribution process easy and effective for everyone involved.
 [npm-image]: https://img.shields.io/npm/v/normalize.css.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/normalize.css
 [gitter-image]: https://img.shields.io/badge/chat-gitter-blue.svg?style=flat-square
-[gitter-url]: https://gitter.im/necolas/normalize.css
+[gitter-url]: https://gitter.im/samuelbetio/normalize.css
