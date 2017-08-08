@@ -1,120 +1,42 @@
-# normalize.css
+# normalize.css v2.0.0
 
-<a href="https://github.com/samuelbetio/normalize.css"><img
-  src="https://samuelbetio.github.io/normalize.css/logo.svg" alt="Normalize Logo"
-  width="80" height="80" align="right"></a>
+Normalize.css is a customisable CSS file that makes browsers render all
+elements more consistently and in line with modern standards. We researched the
+differences between default browser styles in order to precisely target only
+the styles that need normalizing.
 
-> A modern alternative to CSS resets
-
-[![npm][npm-image]][npm-url] [![license][license-image]][license-url]
-[![changelog][changelog-image]][changelog-url]
-[![gitter][gitter-image]][gitter-url]
-
-
-**NPM**
-
-```sh
-npm install --save normalize.css
-```
-
-**Bower**
-
-```sh
-bower install --save normalize-css
-```
-
-**CDN**
-
-See https://cdnjs.com/libraries/normalize
-
-**Download**
-
-See https://samuelbetio.github.io/normalize.css/latest/normalize.css
-
+[Check out the demo](http://samuelbetio.github.com/normalize.css/2.0.0/test.html)
 
 ## What does it do?
 
 * Preserves useful defaults, unlike many CSS resets.
 * Normalizes styles for a wide range of elements.
 * Corrects bugs and common browser inconsistencies.
-* Improves usability with subtle modifications.
+* Improves usability with subtle improvements.
 * Explains what code does using detailed comments.
 
+## How to use it
+
+Normalize.css is intended to be used as an alternative to CSS resets.
+
+It's suggested that you read the `normalize.css` file and consider customising
+it to meet your needs. Alternatively, include the file in your project and
+override the defaults later in your CSS.
 
 ## Browser support
 
-* Chrome (last two)
-* Edge (last two)
-* Firefox (last two)
-* Firefox ESR
+* Google Chrome
+* Mozilla Firefox 4+
+* Apple Safari 5+
+* Opera 12+
 * Internet Explorer 8+
-* iOS Safari (last two)
-* Opera (last two)
-* Safari 6+
-* _[Normalize.css v1 provides legacy browser support](https://github.com/samuelbetio/normalize.css/tree/v1) (IE 6+, Safari 4+), but is no longer actively developed._
 
+## Contribute
 
+Please read my [issue
+guidelines](https://github.com/samuelbetio/issue-guidelines).
 
-## Extended details and known issues
+## Acknowledgements
 
-Additional detail and explanation of the esoteric parts of normalize.css.
-
-#### `pre, code, kbd, samp`
-
-The `font-family: monospace, monospace` hack fixes the inheritance and scaling
-of font-size for preformatted text. The duplication of `monospace` is
-intentional. [Source](https://en.wikipedia.org/wiki/User:Davidgothberg/Test59).
-
-#### `sub, sup`
-
-Normally, using `sub` or `sup` affects the line-box height of text in all
-browsers. [Source](https://gist.github.com/413930).
-
-#### `svg:not(:root)`
-
-Adding `overflow: hidden` fixes IE9's SVG rendering. Earlier versions of IE
-don't support SVG, so we can safely use the `:not()` and `:root` selectors that
-modern browsers use in the default UA stylesheets to apply this style.
-[Source](https://lists.w3.org/Archives/Public/public-svg-wg/2008JulSep/0339.html).
-
-#### `select`
-
-By default, Chrome on OS X and Safari on OS X allow very limited styling of
-`select`, unless a border property is set. The default font weight on `optgroup`
-elements cannot safely be changed in Chrome on OSX and Safari on OS X.
-
-#### `[type="checkbox"]`
-
-It is recommended that you do not style checkbox and radio inputs as Firefox's
-implementation does not respect box-sizing, padding, or width.
-
-#### `[type="number"]`
-
-Certain font size values applied to number inputs cause the cursor style of the
-decrement button to change from `default` to `text`.
-
-#### `[type="search"]`
-
-The search input is not fully stylable by default. In Chrome and Safari on
-OSX/iOS you can't control `font`, `padding`, `border`, or `background`. In
-Chrome and Safari on Windows you can't control `border` properly. It will apply
-`border-width` but will only show a border color (which cannot be controlled)
-for the outer 1px of that border. Applying `-webkit-appearance: textfield`
-addresses these issues without removing the benefits of search inputs (e.g.
-showing past searches). Safari (but not Chrome) will clip the cancel button on
-when it has padding (and `textfield` appearance).
-
-## Contributing
-
-Please read the [contribution guidelines](CONTRIBUTING.md) in order to make the
-contribution process easy and effective for everyone involved.
-
-
-[changelog-image]: https://img.shields.io/badge/changelog-md-blue.svg?style=flat-square
-[changelog-url]: CHANGELOG.md
-[license-image]: https://img.shields.io/npm/l/normalize.css.svg?style=flat-square
-[license-url]: LICENSE.md
-[npm-image]: https://img.shields.io/npm/v/normalize.css.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/normalize.css
-[gitter-image]: https://img.shields.io/badge/chat-gitter-blue.svg?style=flat-square
-[gitter-url]: https://gitter.im/samuelbetio/normalize.css
+Normalize.css is a project by [Samuel Betio](http://github.com/samuelbetio)
+and [Jonathan Neal](http://github.com/jonathantneal).
