@@ -1,11 +1,11 @@
 {
     "name": "normalize-css",
-    "version": "2.0.0",
-    "author": "Nicolas Gallagher",
-    "homepage": "http://necolas.github.com/normalize.css",
+    "version": "2.0.1",
+    "author": "Samuel Betio",
+    "homepage": "http://samuelbetio.github.com/normalize.css/",
     "repository": {
         "type": "git",
-        "url": "https://github.com/necolas/normalize.css.git"
+        "url": "https://github.com/samuelbetio/normalize.css.git"
     },
     "licenses": [{
         "type": "MIT",
